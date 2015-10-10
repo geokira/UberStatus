@@ -1,2 +1,20 @@
-<h1>Project#new</h1>
-<p>Find me in app/views/project/new.html.erb</p>
+<% provide(:title, "New Project") %>
+
+<h1>Let's Create a New Project</h1>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <%= form_for(@project) do |p| %>
+        <%= p.label :name %>
+        <%= p.text_field :name %>
+        
+        <%= p.label :project_number_str %>
+        <%= p.text_field :project_number_str %>
+        
+        <%= p.label :project_description %>
+        <%= p.text_field :project_description %>
+        
+        <%= p.submit "Create Project", class: "btn btn-primary" %>
+        
+    <% end %>
+    </div>
+</div>
