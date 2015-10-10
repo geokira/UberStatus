@@ -1,4 +1,10 @@
-== README
+#README
+
+Important Note: This application is not ready for any kid of use. 
+
+This is my first trial into the Ruby on Rails world. I want to create an app that will track status of enterprise level projects. 
+
+----
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
