@@ -1,6 +1,14 @@
 <% provide(:title, "Home") %>
-<h1>Uber Status</h1>
-<h2>The Status tracker for PMs at Enterprises</h2>
-<p>This application will help you track status for your projects with minimal intervention from your side.</p>
+
+<div class="center jumbotron">
+    <h1>Uber Status</h1>
+    <h2>The Status tracker for PMs at Enterprises</h2>
+    
+    <h2>Here you will create a project
+    </h2>
+    <%= link_to "Create a Project", new_project_path, class: "btn btn-lg btn-primary" %>
+    <p>This application will help you track status for your projects with minimal intervention from your side.</p>
+
+</div>
 
 <p>Find me in app/views/welcome/index.html.erb</p>
