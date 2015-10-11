@@ -31,6 +31,13 @@ class ProjectTest < ActiveSupport::TestCase
         assert_not duplicate_project.valid?
     end
     
+    test "associated systems should be destroyed" do
+        @project.save
+        @project.systems.create!(profile: "SRS-PFI")
+        assert_difference 'System.count', -1 do
+            @project.destroy
+        end
+    end
   # test "the truth" do
   #   assert true
   # end
