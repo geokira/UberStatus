@@ -4,17 +4,17 @@
 <div class="row">
     <div class="col-md-6 col-md-offset-3">
         <%= form_for(@project) do |p| %>
-        <%= p.label :name %>
-        <%= p.text_field :name %>
-        
-        <%= p.label :project_number_str %>
-        <%= p.text_field :project_number_str %>
-        
-        <%= p.label :project_description %>
-        <%= p.text_field :project_description %>
-        
-        <%= p.submit "Create Project", class: "btn btn-primary" %>
-        
+          <%= render 'shared/error_messages' %>
+          <%= p.label :name %>
+          <%= p.text_field :name, class: 'form-control'%>
+
+          <%= p.label :project_number_str %>
+          <%= p.text_field :project_number_str, class: 'form-control' %>
+
+          <%= p.label :project_description %>
+          <%= p.text_field :project_description, class: 'form-control' %>
+
+          <%= p.submit "Create Project", class: "btn btn-primary" %>
     <% end %>
     </div>
 </div>
