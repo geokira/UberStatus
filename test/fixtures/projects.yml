@@ -1,11 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  project_number_str: MyString
-  project_description: MyText
+ADTP3:
+  name: "ADTP3"
+  project_number_str: "122732"
+  project_description: "Additional Dutie and Tax"
 
-two:
-  name: MyString
-  project_number_str: MyString
-  project_description: MyText
+ADTP4:
+  name: "ADTP4"
+  project_number_str: "155275"
+  project_description: "Rebill Duties and Taxes"
+  
+BFLF:
+    name: "BFLF - Rebill Re-Arch"
+    project_number_str: "968268"

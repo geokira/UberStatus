@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  profile: MyString
-  name: MyString
-  impact: MyText
-  project_id: 
+ADT:
+  profile: "SRS-ADT"
+  name: "ADT System"
+  impact: "This project is primarly concern to do Tax Rebills"
+  created_at: <%= 3.years.ago %>
 
-two:
-  profile: MyString
-  name: MyString
-  impact: MyText
-  project_id: 
+most_recent:
+  profile: "SRS-IPAR"
+  name: "Mainframe IPAR System"
+  impact: "Test Only"
+  created_at: <%= Time.zone.now %>
