@@ -2,7 +2,9 @@ require 'test_helper'
 
 class ProjectTest < ActiveSupport::TestCase
     def setup
-        @project = Project.new(name: "Absolute Value for Pricing", project_number_str: "174523", project_description: "This project will provide the absolute value a customer will pay for product.")
+        @project = Project.new(name: "Absolute Value for Pricing", 
+          project_number_str: "174523", 
+          project_description: "This project will provide the absolute value a customer will pay for product.")
     end
     
     test "should be valid" do
