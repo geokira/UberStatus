@@ -1,4 +1,5 @@
 <li id="project-<%= project.id %>">
   <%= link_to project.name, project %>
   <span class="project-name"><%= project.name %></span>
+  <%= tag_label("Tracked "+time_ago_in_words(project.created_at)+" ago.",:success) %>
 </li>
