@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get 'contact' => 'welcome#contact_us' #Contact Page
   
   get 'users/new'
+  get 'signup' => 'users#new'
   get 'new_project' => 'projects#new'
 
   resources :projects
