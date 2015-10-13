@@ -18,3 +18,9 @@ SRS-EC:
   profile: "SRS-EC"
   name: "Error Correction"
   impact: "The impact is the field that goes there."
+
+SRS-PFI:
+  profile: "SRS-PFI"
+  name: "Prepare for Invoice"
+  created_at: <%= 3.days.ago %>
+  updated_at: <%= 1.day.ago %>
