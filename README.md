@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/geokira/UberStatus.svg?branch=master)](https://travis-ci.org/geokira/UberStatus)
 #README
 
 Important Note: This application is not ready for any kid of use. 
