@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/geokira/UberStatus.svg?branch=master)](https://travis-ci.org/geokira/UberStatus)
+[![Coverage Status](https://coveralls.io/repos/geokira/UberStatus/badge.svg?branch=master&service=github)](https://coveralls.io/github/geokira/UberStatus?branch=master)
 #Uber Status Readme
 
 Important Note: This application is not ready for any kind of use. 
