@@ -4,13 +4,13 @@
 [![Inline docs](http://inch-ci.org/github/geokira/UberStatus.svg?branch=master)](http://inch-ci.org/github/geokira/UberStatus)
 #Uber Status Readme
 
-Important Note: This application is not ready for any kind of use. 
+Important Note: This application is not ready for any kind of use.
 
-Disclosure: I work in a fortune 500 company as a IT Project Manager. I am a rookie when it comes to Rails development. The only purpose of this project here is to solve a challenge I have at work with collecting status on large initiatives. 
+Disclosure: I work in a fortune 500 company as a IT Project Manager. I am a rookie when it comes to Rails development. The only purpose of this project here is to solve a challenge I have at work with collecting status on large initiatives.
 
-Intent of the app: This app will try to collect status automatically and will provide transparency of these statuses. At this point the project is infant and I will recommend noone should use it. 
+Intent of the app: This app will try to collect status automatically and will provide transparency of these statuses. At this point the project is infant and I will recommend noone should use it.
 
-I am using Github thinking that I might get good tips from my peers that are experienced software developers, or other community experts that might be looking for someone to give a hand. 
+I am using Github thinking that I might get good tips from my peers that are experienced software developers, or other community experts that might be looking for someone to give a hand.
 
 ----
 
