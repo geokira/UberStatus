@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/geokira/UberStatus.svg?branch=master)](https://travis-ci.org/geokira/UberStatus)
 [![Coverage Status](https://coveralls.io/repos/geokira/UberStatus/badge.svg?branch=master&service=github)](https://coveralls.io/github/geokira/UberStatus?branch=master)
 [![Code Climate](https://codeclimate.com/github/geokira/UberStatus/badges/gpa.svg)](https://codeclimate.com/github/geokira/UberStatus)
+[![Inline docs](http://inch-ci.org/github/geokira/UberStatus.svg?branch=master)](http://inch-ci.org/github/geokira/UberStatus)
 #Uber Status Readme
 
 Important Note: This application is not ready for any kind of use. 
